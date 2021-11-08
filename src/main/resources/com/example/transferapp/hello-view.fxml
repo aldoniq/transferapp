@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.transferapp.HelloController">
+<padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+</padding>
+
+<Label fx:id="heartBeat"/>
+<Button text="check HeartBeat" onAction="#heartBeat"/>
+
+<padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+</padding>
+
+<Button text="Add File" onAction="#addFile"/>
+
+<padding>
+    <Insets bottom="5.0" left="5.0" right="10.0" top="10.0"/>
+</padding>
+
+<Button text="Delete File" onAction="#deleteFile"/>
+
+
+<Button text="Start Print" onAction="#startPrint"/>
+
+<Button text="Pause Print" onAction="#pausePrint"/>
+
+<Button text="Send Record From CSV" onAction="#sendRecordsFromCSV"/>
+</VBox>
+
